@@ -69,7 +69,7 @@ function get_posts(username) {
 
                     let class_heart = post['heart_by_me'] ? 'fa-heart' : 'fa-heart-o'
                     let class_star = post['star_by_me'] ? 'fa-star' : 'fa-star-o'
-                    let class_thumbsup = post['thumbsup_by_me'] ? 'fa-thumbs-up' : 'fa-thumbs-up-o';
+                    let class_thumbsup = post['thumbsup_by_me'] ? 'fa-thumbs-up' : 'fa-thumbs-o-up';
 
 
                     let html_temp = `
